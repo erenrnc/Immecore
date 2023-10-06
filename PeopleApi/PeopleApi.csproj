@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>d6861973-7870-4ac3-a38e-8cf6dd58ea1a</UserSecretsId>
+		<DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="11.0.1" />
+		<PackageReference Include="Dapper" Version="2.0.123" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Core\Core.csproj" />
+	</ItemGroup>
+</Project>

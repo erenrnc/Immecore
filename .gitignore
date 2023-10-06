@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Core/bin/Debug/net6.0
+/Core/obj
+/ImmedisWeb/bin/Debug/net6.0
+/ImmedisWeb/obj
+/PeopleApi/bin/Debug/net6.0
+/PeopleApi/obj
+/UserApi/bin/Debug/net6.0
+/UserApi/obj
